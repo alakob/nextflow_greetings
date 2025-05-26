@@ -1,0 +1,19 @@
+{
+    "Should run without failures": {
+        "content": [
+            {
+                "0": [
+                    "Greetings.output.txt:md5,66838632dd4046205cff7e68b5112d46"
+                ],
+                "greeting_file": [
+                    "Greetings.output.txt:md5,66838632dd4046205cff7e68b5112d46"
+                ]
+            }
+        ],
+        "meta": {
+            "nf-test": "0.9.2",
+            "nextflow": "25.04.2"
+        },
+        "timestamp": "2025-05-26T13:47:34.68808"
+    }
+}

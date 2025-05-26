@@ -1,0 +1,41 @@
+name: nf-test CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: 17
+
+    - name: Install Nextflow
+      run: |
+        wget -qO- https://get.nextflow.io | bash
+        sudo mv nextflow /usr/local/bin/
+
+    - name: Install nf-test
+      run: |
+        wget -qO- https://code.askimed.com/install/nf-test | bash
+        sudo mv nf-test /usr/local/bin/
+
+    - name: Run tests
+      run: nf-test test
+
+    - name: Upload test results
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: test-results
+        path: .nf-test/

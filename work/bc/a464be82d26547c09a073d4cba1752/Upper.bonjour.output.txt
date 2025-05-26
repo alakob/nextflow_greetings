@@ -1,0 +1,1 @@
+/Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/work/fa/6babb90f4550d94f43ba5e19da22e0/Upper.bonjour.output.txt

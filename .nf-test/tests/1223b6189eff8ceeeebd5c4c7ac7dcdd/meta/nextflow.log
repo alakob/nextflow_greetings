@@ -1,0 +1,75 @@
+May-26 13:47:33.745 [main] DEBUG nextflow.cli.Launcher - $> nextflow -quiet -log /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/.nf-test/tests/1223b6189eff8ceeeebd5c4c7ac7dcdd/meta/nextflow.log run /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/.nf-test-1223b6189eff8ceeeebd5c4c7ac7dcdd.nf -c /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/nextflow.config -c /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/tests/nextflow.config -params-file /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/.nf-test/tests/1223b6189eff8ceeeebd5c4c7ac7dcdd/meta/params.json -ansi-log false -with-trace /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/.nf-test/tests/1223b6189eff8ceeeebd5c4c7ac7dcdd/meta/trace.csv -w /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/.nf-test/tests/1223b6189eff8ceeeebd5c4c7ac7dcdd/work
+May-26 13:47:33.773 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.04.2
+May-26 13:47:33.785 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/alakob/.nextflow/plugins; core-plugins: nf-amazon@2.15.0,nf-azure@1.16.0,nf-cloudcache@0.4.3,nf-codecommit@0.2.3,nf-console@1.2.1,nf-google@1.21.0,nf-k8s@1.0.0,nf-tower@1.11.2,nf-wave@1.12.1
+May-26 13:47:33.795 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+May-26 13:47:33.796 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+May-26 13:47:33.797 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+May-26 13:47:33.804 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+May-26 13:47:33.814 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/nextflow.config
+May-26 13:47:33.816 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/nextflow.config
+May-26 13:47:33.817 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/tests/nextflow.config
+May-26 13:47:33.817 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/nextflow.config
+May-26 13:47:33.818 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/nextflow.config
+May-26 13:47:33.818 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/tests/nextflow.config
+May-26 13:47:33.832 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /Users/alakob/.nextflow/secrets/store.json
+May-26 13:47:33.834 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@5300f14a] - activable => nextflow.secret.LocalSecretsProvider@5300f14a
+May-26 13:47:33.843 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+May-26 13:47:34.036 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+May-26 13:47:34.041 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+May-26 13:47:34.061 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+May-26 13:47:34.071 [main] INFO  nextflow.cli.CmdRun - Launching `/Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/.nf-test-1223b6189eff8ceeeebd5c4c7ac7dcdd.nf` [spontaneous_brenner] DSL2 - revision: a0c275f2ba
+May-26 13:47:34.071 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+May-26 13:47:34.071 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+May-26 13:47:34.101 [main] DEBUG nextflow.Session - Session UUID: 8a1d5f1a-09fe-4353-8168-eb0075973bca
+May-26 13:47:34.101 [main] DEBUG nextflow.Session - Run name: spontaneous_brenner
+May-26 13:47:34.101 [main] DEBUG nextflow.Session - Executor pool size: 14
+May-26 13:47:34.106 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+May-26 13:47:34.109 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=42; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+May-26 13:47:34.119 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 25.04.2 build 5947
+  Created: 13-05-2025 21:58 UTC (22:58 BST)
+  System: Mac OS X 15.5
+  Runtime: Groovy 4.0.26 on OpenJDK 64-Bit Server VM 17.0.15+0
+  Encoding: UTF-8 (UTF-8)
+  Process: 59718@Blaises-MacBook-Pro.local [127.0.0.1]
+  CPUs: 14 - Mem: 24 GB (67.3 MB) - Swap: 0 (0)
+May-26 13:47:34.125 [main] DEBUG nextflow.Session - Work-dir: /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/.nf-test/tests/1223b6189eff8ceeeebd5c4c7ac7dcdd/work [Mac OS X]
+May-26 13:47:34.126 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/bin
+May-26 13:47:34.130 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+May-26 13:47:34.135 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+May-26 13:47:34.138 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+May-26 13:47:34.148 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+May-26 13:47:34.153 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 15; maxThreads: 1000
+May-26 13:47:34.190 [main] DEBUG nextflow.Session - Session start
+May-26 13:47:34.191 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/.nf-test/tests/1223b6189eff8ceeeebd5c4c7ac7dcdd/meta/trace.csv
+May-26 13:47:34.317 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+May-26 13:47:34.390 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-26 13:47:34.390 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-26 13:47:34.393 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+May-26 13:47:34.396 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=14; memory=24 GB; capacity=14; pollInterval=100ms; dumpInterval=5m
+May-26 13:47:34.397 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+May-26 13:47:34.407 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'sayHello': maxForks=0; fair=false; array=0
+May-26 13:47:34.449 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: sayHello
+May-26 13:47:34.450 [main] DEBUG nextflow.Session - Igniting dataflow network (1)
+May-26 13:47:34.451 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > sayHello
+May-26 13:47:34.451 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_e157da23bd66e2bb: /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/.nf-test-1223b6189eff8ceeeebd5c4c7ac7dcdd.nf
+  Script_c2459b8b23589ae0: /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/modules/sayHello.nf
+May-26 13:47:34.451 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+May-26 13:47:34.451 [main] DEBUG nextflow.Session - Session await
+May-26 13:47:34.494 [Task submitter] WARN  n.executor.BashWrapperBuilder - Task runtime metrics are not reported when using macOS without a container engine
+May-26 13:47:34.500 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-26 13:47:34.501 [Task submitter] INFO  nextflow.Session - [52/d11256] Submitted process > sayHello
+May-26 13:47:34.533 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: sayHello; status: COMPLETED; exit: 0; error: -; workDir: /Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/.nf-test/tests/1223b6189eff8ceeeebd5c4c7ac7dcdd/work/52/d112563e8bb4ee636aab34a2997a1a]
+May-26 13:47:34.533 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=42; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+May-26 13:47:34.549 [TaskFinalizer-1] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=42; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+May-26 13:47:34.551 [main] DEBUG nextflow.Session - Session await > all processes finished
+May-26 13:47:34.635 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+May-26 13:47:34.635 [main] DEBUG nextflow.Session - Session await > all barriers passed
+May-26 13:47:34.636 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+May-26 13:47:34.636 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+May-26 13:47:34.640 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=512 MB; ]
+May-26 13:47:34.640 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+May-26 13:47:34.642 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+May-26 13:47:34.654 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+May-26 13:47:34.654 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

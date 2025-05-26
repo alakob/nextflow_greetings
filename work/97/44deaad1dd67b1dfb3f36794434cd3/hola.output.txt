@@ -1,0 +1,1 @@
+/Users/alakob/projects/interview/interview-270505-nextflow/nexflow_greetings/work/c1/e4dae3dff69ddf384424649a736fe8/hola.output.txt
